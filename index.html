@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -73,14 +72,13 @@
             height: 100vh;
             transform: translate(-50%, -50%);
             border: none;
-            pointer-events: none;
         }
     </style>
 </head>
 <body>
     <div class="video-container">
         <!-- O vídeo irá rodar automaticamente ao abrir a página devido ao "autoplay=1" -->
-        <iframe src="https://www.youtube.com/embed/VoamfEep4ZA?autoplay=1&controls=0&disablekb=1&fs=0&modestbranding=1&rel=0" allow="autoplay" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/VoamfEep4ZA?autoplay=1&amp;controls=1&amp;disablekb=1&amp;fs=1&amp;modestbranding=1&amp;rel=0" allow="autoplay" allowfullscreen=""></iframe>
     </div>
     
     <div class="container">
@@ -110,5 +108,6 @@
             }, 1000);
         }
     </script>
+
 </body>
 </html>
